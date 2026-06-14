@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Kalam:wght@300;400;700&family=Inter:wght@300;400;500;600;700;800&family=Shadows+Into+Light&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-handwritten: "Caveat", cursive;
+  --font-journal: "Kalam", cursive;
+  --font-doodle: "Shadows Into Light", cursive;
+  --font-serif: "Playfair Display", serif;
+  
+  --color-editorial-bg: #FDF5E6;
+  --color-editorial-text: #4A4A4A;
+  --color-editorial-accent-coral: #FF6321;
+  --color-editorial-accent-apricot: #FF9E64;
+  --color-editorial-accent-honey: #F27D26;
+  --color-editorial-accent-sage: #B2AC88;
+  --color-editorial-accent-brown: #8b4513;
+}
+
+/* Scrapbook Lined Paper style */
+.lined-paper {
+  background-color: #fffefb;
+  background-image: linear-gradient(#f0ebe0 1px, transparent 1px);
+  background-size: 100% 2.2rem;
+  line-height: 2.2rem;
+}
+
+/* Corkboard or Grid pattern updated to editorial warm brown specs */
+.scrapbook-grid {
+  background-color: #FDF5E6;
+  background-image: radial-gradient(#8b4513 0.5px, transparent 0.5px);
+  background-size: 20px 20px;
+}
+
+.scrapbook-grid-dark {
+  background-color: #1c1813;
+  background-image: radial-gradient(#FF9E64 0.5px, transparent 0.5px);
+  background-size: 20px 20px;
+}
+
+/* Washi tape effect */
+.washi-tape {
+  background-color: rgba(255, 158, 100, 0.7); /* Apricot */
+  transform: rotate(-3deg);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+/* Polaroids */
+.polaroid-frame {
+  box-shadow: 0 6px 16px rgba(139, 69, 19, 0.12), 0 0 2px rgba(139, 69, 19, 0.1) inset;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #E8E1D1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B2AC88;
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "Caleb's Summer Bucket List 2026",
+  "description": "A fun, interactive, digital scrapbook and Polaroid memory journal for tracking Caleb's 2026 summer adventures.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
